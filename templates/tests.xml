@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+
+<!--
+© Copyright, UbiHPC
+ All rights reserved
+ Developped by Leonardo Camargo Forero, UbiHPC CEO
+ email: lecf.77@gmail.com
+ 2019
+ High Performance Robotic Computing Cooperative Flying (COFL) simulator
+ This simulator is based on The ARCHADE SimPlat
+ For more information write us in https://ubihpc.com/contact-us-->
+
+<tests>
+	<testsFolder></testsFolder>
+	<infrastructureFile></infrastructureFile>
+	<airport></airport>
+	<departure></departure>
+	<minNM></minNM>
+	<intervalSizeNM></intervalSizeNM>
+	<maxNM></maxNM>
+	<minFlights></minFlights>
+	<maxFlights></maxFlights>
+	<date></date>
+	<hour></hour>
+	<eso6></eso6><!-- eSO6 file having all concatenated trajectories -->
+	<scenario></scenario> <!-- S1 - S3 -->
+	<model></model> <!-- vicsek, formationFlying -->
+	<grouping></grouping> <!-- fifo, optimized -->
+	<alonefuelparameter></alonefuelparameter> <!-- Flying alone fuel parameter -->
+	<coopfuelparameter></coopfuelparameter> <!-- Flying cooperatively fuel parameter -->
+	<approachedDistance></approachedDistance> <!-- Distance betwen aircraft when clustered [m] -->
+</tests>

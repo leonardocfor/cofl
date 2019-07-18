@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+
+<!--
+© Copyright, UbiHPC
+ All rights reserved
+ Developped by Leonardo Camargo Forero, UbiHPC CEO
+ email: lecf.77@gmail.com
+ 2019
+ High Performance Robotic Computing Cooperative Flying (COFL) simulator
+ This simulator is based on The ARCHADE SimPlat
+ For more information write us in https://ubihpc.com/contact-us -->
+
+<testcase>
+	<id>xxx</id> <!-- YYYY-MM-DD-HH-MM-Duration-QuantityofFlights-->
+	<split>false</split><!--true, false, if false, eso6 will be ignored  -->
+	<eso6>test.eSo6</eso6><!-- eSO6 file having all concatenated trajectories -->
+	<flights>200</flights> <!-- quantity of flights -->
+	<scenario>S1</scenario> <!-- S1 - S3 -->
+	<model>vicsek</model> <!-- vicsek, formationFlying -->
+	<grouping>fifo</grouping> <!-- fifo, optimized -->
+	<clusteringTime>100</clusteringTime> <!-- in seconds, multiple of the TIME_STEP in etc.configuration-->
+	<radius>200</radius> <!-- Radius for clustering -->
+	<infrastructure>clusterfile.txt</infrastructure> <!-- infrastructure file with one line per hostname-->
+	<log>log.txt</log>
+</testcase>
