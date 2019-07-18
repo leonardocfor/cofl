@@ -4,6 +4,8 @@ HPRC cooperative flying simulator. [Contact UbiHPC](https://ubihpc.com/contact-u
 
 Camargo-Forero, L., Royo, P., & Prats, X. (2018, September). High Performance Robotic Computing as an enabler for cooperative flights. In 2018 IEEE/AIAA 37th Digital Avionics Systems Conference (DASC) (pp. 1-10). IEEE.
 
+The research paper can be found in [here](https://ieeexplore.ieee.org/abstract/document/8569851)
+
 
 ## Usage
 ---
